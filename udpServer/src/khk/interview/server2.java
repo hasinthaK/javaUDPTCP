@@ -12,34 +12,45 @@ public class server2 {
 
         try{
             DatagramSocket socket = new DatagramSocket(servicePort);
+            System.out.println("Server Socket created");
 
             //reciev buff
             byte[] recieve = new byte[1024];
             //send buff
             byte[] send = new byte[1024];
 
-            DatagramPacket packetIn = new DatagramPacket(recieve, recieve.length);
+            String connection = "on";
 
-            try{
-                socket.receive(packetIn);
-            }catch (IOException e){
-                e.printStackTrace();
-            }
+            while(connection.equals("on")){
+                DatagramPacket packetIn = new DatagramPacket(recieve, recieve.length);
+                System.out.println("Waiting for a packet..");
 
-            String inData = new String(packetIn.getData());
-            System.out.println("Recieved packet data: "+inData);
+                try{
+                    socket.receive(packetIn);
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
 
-            send = inData.toUpperCase().getBytes();
+                String inData = new String(packetIn.getData());
+                System.out.println("Received packet data: " + inData);
 
-            InetAddress clientAddr = packetIn.getAddress();
-            int clientPort = packetIn.getPort();
+                if(inData.equals("off")){
+                    System.out.println("off - Closing server connection..");
+                    connection = "off";
+                }
+                send = inData.toUpperCase().getBytes();
 
-            DatagramPacket out = new DatagramPacket(send, send.length, clientAddr, clientPort);
+//            Extract destination data from received packet
+                InetAddress clientAddr = packetIn.getAddress();
+                int clientPort = packetIn.getPort();
 
-            try{
-                socket.send(out);
-            }catch (IOException e){
-                e.printStackTrace();
+                DatagramPacket out = new DatagramPacket(send, send.length, clientAddr, clientPort);
+
+                try{
+                    socket.send(out);
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
             }
 
             socket.close();

@@ -8,9 +8,10 @@ import java.util.Date;
 
 public class server1 {
     public static final int servicePort = 10005;
+
     public static void server1() throws IOException{
         try{
-//            cretae Datagram socket same as UDP client
+//            create Datagram socket same as UDP client
             DatagramSocket socket = new DatagramSocket(servicePort);
 
             InetAddress clientAddr = InetAddress.getByName("localhost");
