@@ -7,10 +7,11 @@ import java.net.InetAddress;
 import java.util.Date;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
 	// write your code here
 
-        server2.server2();
+//        server2.server2();
 
+        testServer.testServer();
     }
     }
