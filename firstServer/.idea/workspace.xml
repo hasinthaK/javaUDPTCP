@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0e0ca2-b615-4416-acd7-161a928e9d09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/khk/server/testTCPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/firstServer/META-INF/firstServer.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/firstServer/khk/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstServer/khk/server/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/firstServer/khk/server/html.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstServer/khk/server/html.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/khk/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/khk/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/khk/server/testTCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/khk/server/testTCPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../udpServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../udpServer/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +77,7 @@
       <workItem from="1576243041394" duration="99000" />
       <workItem from="1576723657767" duration="5602000" />
       <workItem from="1576730459731" duration="750000" />
-      <workItem from="1577898201964" duration="3978000" />
+      <workItem from="1577898201964" duration="4368000" />
     </task>
     <servers />
   </component>
@@ -89,22 +85,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1577902161474">
+    <state width="1323" height="88" key="GridCell.Tab.0.bottom" timestamp="1577902669797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577902161474" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1577902161474">
+    <state width="1323" height="88" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577902669797" />
+    <state width="1323" height="88" key="GridCell.Tab.0.center" timestamp="1577902669797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577902161474" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1577902161474">
+    <state width="1323" height="88" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577902669797" />
+    <state width="1323" height="88" key="GridCell.Tab.0.left" timestamp="1577902669797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577902161474" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1577902161474">
+    <state width="1323" height="88" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577902669797" />
+    <state width="1323" height="88" key="GridCell.Tab.0.right" timestamp="1577902669797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577902161474" />
+    <state width="1323" height="88" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577902669797" />
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1576730463303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
