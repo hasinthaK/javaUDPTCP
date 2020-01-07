@@ -24,12 +24,13 @@ public class testTCPServer {
                         System.out.println("Writing to client..");
 
                         Date now = new Date();
-                        Locale locale = new Locale("en", "US");
-                        DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.DEFAULT, locale);
-                        String date = dateFormat.format(now);
-                        System.out.print(date);
+//                        Locale locale = new Locale("en", "US");
+//                        DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.DEFAULT, locale);
+//                        String date = dateFormat.format(now);
+                        System.out.println(now);
 
-                        outputStream.writeBytes("Server: " + date);
+                        outputStream.writeBytes("Server: " + now);
+//                        outputStream.flush();
                         socket.close();
                     }catch (Exception e) {
                         e.printStackTrace();
