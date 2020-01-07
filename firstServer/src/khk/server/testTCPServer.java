@@ -11,40 +11,31 @@ public class testTCPServer {
 
     public static void testTCPServer() throws Exception {
 
-        try{
-
             ServerSocket tcpServer = new ServerSocket(10010);
             System.out.println("TCP Server created, Listening..");
 
-            try{
 
                 while(true){
 
-                    Socket socket = tcpServer.accept();
+                    try{
+                        Socket socket = tcpServer.accept();
 
-                    DataOutputStream outputStream = new DataOutputStream(socket.getOutputStream());
-                    System.out.println("Writing to client..");
+                        DataOutputStream outputStream = new DataOutputStream(socket.getOutputStream());
+                        System.out.println("Writing to client..");
 
-                    Date now = new Date();
-                    Locale locale = new Locale("en", "US");
-                    DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.DEFAULT, locale);
-                    String date = dateFormat.format(now);
-                    System.out.print(date);
+                        Date now = new Date();
+                        Locale locale = new Locale("en", "US");
+                        DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.DEFAULT, locale);
+                        String date = dateFormat.format(now);
+                        System.out.print(date);
 
-                    outputStream.writeBytes("Server: " + date);
-                    socket.close();
+                        outputStream.writeBytes("Server: " + date);
+                        socket.close();
+                    }catch (Exception e) {
+                        e.printStackTrace();
+                    }
 
                 }
             }
-            catch (Exception e){
-                e.printStackTrace();
-            }
 
-        }catch (Exception e){
-            e.printStackTrace();
         }
-
-
-
-    }
-}
