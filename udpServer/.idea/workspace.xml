@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78bc17d3-f8cf-482c-b396-3d730eea7945" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UDPClient/out/production/UDPClient/khk/udp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UDPClient/out/production/UDPClient/khk/udp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UDPClient/src/khk/udp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UDPClient/src/khk/udp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../firstServer/src/khk/server/testTCPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../firstServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServer/out/production/firstServer/META-INF/firstServer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServer/out/production/firstServer/khk/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServer/out/production/firstServer/khk/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServer/out/production/firstServer/khk/server/html.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServer/out/production/firstServer/khk/server/html.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServer/src/khk/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServer/src/khk/server/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/udpServer/khk/interview/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udpServer/khk/interview/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/khk/interview/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/khk/interview/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <updated>1576726499185</updated>
       <workItem from="1576726503463" duration="3699000" />
       <workItem from="1576812091631" duration="4573000" />
-      <workItem from="1577893887438" duration="4762000" />
+      <workItem from="1577893887438" duration="6145000" />
     </task>
     <servers />
   </component>
@@ -92,22 +93,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="66" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577898198008" />
-    <state width="1323" height="115" key="GridCell.Tab.0.bottom" timestamp="1577897609410">
+    <state width="1323" height="115" key="GridCell.Tab.0.bottom" timestamp="1577901410995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577897609410" />
-    <state width="1323" height="115" key="GridCell.Tab.0.center" timestamp="1577897609395">
+    <state width="1323" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577901410995" />
+    <state width="1323" height="115" key="GridCell.Tab.0.center" timestamp="1577901410995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577897609395" />
-    <state width="1323" height="115" key="GridCell.Tab.0.left" timestamp="1577897609395">
+    <state width="1323" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577901410995" />
+    <state width="1323" height="115" key="GridCell.Tab.0.left" timestamp="1577901410995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577897609395" />
-    <state width="1323" height="115" key="GridCell.Tab.0.right" timestamp="1577897609395">
+    <state width="1323" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577901410995" />
+    <state width="1323" height="115" key="GridCell.Tab.0.right" timestamp="1577901410995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577897609395" />
+    <state width="1323" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577901410995" />
     <state x="348" y="63" key="NewModule_or_Project.wizard" timestamp="1577898169958">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
