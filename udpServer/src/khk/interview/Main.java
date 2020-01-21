@@ -12,6 +12,13 @@ public class Main {
 
 //        server2.server2();
 
-        testServer.testServer();
+//        testServer.testServer();
+        for (int i = 0 ; i<100 ; i++){
+
+            ThreadImplemented thread = new ThreadImplemented("thred "+i);
+            Thread t = new Thread(thread);
+            t.start();
+
+        }
     }
     }
