@@ -11,8 +11,9 @@ public class Main {
 //        udpClient.udpSocket();
 //        udpServer.udpS();
 //        html.jEditorPane();
-        testTCPServer.testTCPServer();
+//        testTCPServer.testTCPServer();
 
+        threadWaitTCP.threadWait();
     }
 
 }

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78bc17d3-f8cf-482c-b396-3d730eea7945" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../firstServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServer/out/production/firstServer/khk/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServer/out/production/firstServer/khk/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServer/src/khk/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServer/src/khk/server/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/khk/interview/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/khk/interview/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/khk/interview/ThreadImplemented.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/khk/interview/ThreadImplemented.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
       <workItem from="1576726503463" duration="3699000" />
       <workItem from="1576812091631" duration="4573000" />
       <workItem from="1577893887438" duration="6145000" />
-      <workItem from="1579577315103" duration="371000" />
+      <workItem from="1579577315103" duration="2399000" />
     </task>
     <servers />
   </component>
