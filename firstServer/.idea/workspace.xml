@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f0e0ca2-b615-4416-acd7-161a928e9d09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f0e0ca2-b615-4416-acd7-161a928e9d09" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +78,7 @@
       <workItem from="1577898201964" duration="4851000" />
       <workItem from="1578403163187" duration="3074000" />
       <workItem from="1579578004329" duration="3891000" />
+      <workItem from="1579948109166" duration="314000" />
     </task>
     <servers />
   </component>
@@ -87,6 +86,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="17" key="FileChooserDialogImpl" timestamp="1579948423536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="17" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579948423536" />
     <state width="1323" height="158" key="GridCell.Tab.0.bottom" timestamp="1579581898881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -103,13 +106,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="158" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579581898880" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1578403167319">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1579948107164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578403167319" />
-    <state x="65" y="0" key="new project wizard" timestamp="1576726498377">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579948107164" />
+    <state x="65" y="0" key="new project wizard" timestamp="1579948425999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576726498377" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1579948425999" />
   </component>
 </project>
